@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1vw;
+    color: whitesmoke;
+    /* border: solid 2px white; */
+    font-size: 18px;
+
+    /* width: 50vw; */
+    word-spacing: 5px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.navbar ul li a:hover {
+    color: orangered;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    top: 30vh;
+    left: 7vw;
+    letter-spacing: 0.5rem;
+    line-height: 5rem;
+    font-weight: bolder;
+}
+
+.image {
+    height: 40%;
+    width: 100%;
+    align-items: center;
+}
+
+.image img {
+    width: 100vw;
+    height: auto;
+}
+
+
+.about {
+    position: relative;
+    color: whitesmoke;
+    margin: 10%;
+    text-align: center;
+}
+
+.about h3 {
+    line-height: 2em;
+    color: rgb(156, 156, 156);
+
+}
+
+
+.contact {
+    position: relative;
+    color: whitesmoke;
+    margin: 10%;
+    text-align: center;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+    gap: 2rem;
+    margin: 3rem;
+}
+
+.contact ul li {
+    display: inline-block;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    margin: 0 10px;
+}
+
+.contact ul li a:hover {
+    color: whitesmoke
+}

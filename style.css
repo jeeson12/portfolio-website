@@ -1,0 +1,10 @@
+li {
+  display: inline-block;
+text-align: end;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
