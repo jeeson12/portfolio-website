@@ -18,10 +18,10 @@ body{
     position:fixed;
     top: 20px;
     left: 40px;
-     color: rgb(166, 199, 48);
+     color:rgb(16, 196, 202) ;
 }
 .portfolio{
-    color:rgb(16, 196, 202);
+    color:rgb(166, 199, 48);
 }
 
 nav li{
