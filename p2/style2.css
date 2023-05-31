@@ -344,3 +344,105 @@ display: flex;
 }
 
  
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body{
+        width:content;
+    }
+    .image{
+        height: 40rem;
+        width:40rem;
+    }
+    .image img{
+       
+    }
+    .name{
+        font-size: 2rem;
+    }
+    .hello{
+        top: 20rem;
+        font-size:  1.5rem;
+    }
+    .name2{
+        top: 27rem;
+        font-size: 1.75rem;
+        width: 100%;
+    }
+    .aboutme{
+        width: 39rem;
+    }
+    .img2{
+        display: block;
+    }
+    .details1{
+        font-size:1.5rem;
+    }
+    .abt{
+        width:39rem;
+    }
+    .biop1{
+
+        font-size:1.3rem;
+    }
+    .biop2{
+        padding-left: 5rem;
+        font-size:1.3rem;
+    }
+    .bio{
+       
+    }
+    .academics1{
+        width: 39rem;
+    }
+    .d2a-1{
+        font-size: 1.6rem;
+    }
+    .d2b-1{
+        font-size: 1.6rem;
+    }
+    .d2c-1{
+        font-size: 1.6rem;
+    }
+    .details2a{
+        font-size:1.3rem;
+    }
+    .details2b{
+        font-size:1.3rem;
+    }
+    .details2c{
+        font-size:1.3rem;
+    }
+    .edu{
+        display: block;
+        align-items: center;
+    }
+    .skl{
+        width: 39rem;
+    }
+    .skills2{
+        padding-left: 1rem;
+    }
+    .skillsmain{
+        display: block;
+    }
+    .projects{
+        width: 39rem;
+    }
+    .details4{
+        
+        text-align: center;
+    }
+    .contactme{
+        width: 39rem;
+    }
+    .cnt{
+        width: 39rem;
+    }
+}
